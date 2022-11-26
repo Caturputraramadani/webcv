@@ -1,7 +1,7 @@
 body {
     background: radial-gradient(circle at top left, #5C2E7E, #4C6793, #a3def1);
     color: #000000;
-    
+    background-repeat:repeat;
     font-family: "Open Sans", Arial;
     font-size: 17px;
     padding: 15px;
@@ -124,32 +124,4 @@ text-align: center;
     width: 150px;
     height: 150px;
     overflow: hidden;
-}
-@media (max-width: 600px){
-    body{
-        background: radial-gradient(circle at top left, #5C2E7E, #4C6793, #a3def1);
-        background-size: 10000px;
-    }
-    
-}
-@media (max-width: 600px){
-.container {
-    max-width: 650px;
-    margin-left: auto;
-    margin-right: auto;
-}
-}
-@media (max-width: 600px){
-    h1 { 
-        text-align: center;
-        color:#170027;
-        font-size: 15px;
-     }
-}
-@media (max-width: 600px){
-.container {
-    max-width: 650px;
-    margin-left: auto;
-    margin-right: auto;
-}
 }
